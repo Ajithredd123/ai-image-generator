@@ -1,0 +1,110 @@
+body{
+    background: rgb(0, 0, 0);
+    color: gray;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+h1{
+    color: rgb(91, 112, 159);
+    font-size: 34px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600px;
+}
+input{
+    height: 30px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    background: rgb(59, 55, 55);
+    font-family:initial;
+    font-weight: 550;
+}
+input:hover{
+    border-color: rgb(121, 126, 85);
+    /* width: max-content; */
+    height: 30px;
+}
+#btn{
+    max-width: 100px;
+    height: 24px;
+    width: 80%;
+    font-size: 16px;
+    font-weight: 550;
+}
+#image{
+    max-width: 350px;
+    width: 90%;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+#image:hover{
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    /* height: 100%; */
+    max-width: 350px;
+    /* width: 100%; */
+}
+/* CSS */
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+/* 
+.footer{
+  margin-top:25%;
+  /* margin-left: 100%;
+  margin-right: 100%; */
+  /* margin-bottom: 0%; */
